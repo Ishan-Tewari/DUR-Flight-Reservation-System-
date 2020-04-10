@@ -1,0 +1,98 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 15px;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111;
+    text-decoration: none;
+    color: white;
+}
+.booking-form-box{
+    max-width: 750px;
+    border:1.5px solid #ced4da;
+    margin: 8% auto 0;
+    border-radius: 20px;
+}
+.booking-form{
+    padding:0 20px 20px;
+}
+.booking-form label{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #fff;
+}
+input::placeholder{
+    color: #fff !important;
+}
+.input-grp{
+    width: 151px;
+    display: inline-block;
+    margin-left: 5%;
+}
+.form-control{
+    font-size: 12px!important;
+    border-radius: 0!important;
+    color: #fff!important;
+    background: transparent!important;
+    box-shadow: none!important;
+}
+.select-date::-webkit-inner-spin-button,
+.select-date::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin:0;
+}
+.select-date::-webkit-calendar-picker-indicator{
+    background: transparent!important;
+}
+.custom-select{
+    color: #fff!important;
+    font-size: 12px!important;
+    border: 1px solid #ced4da!important;
+    box-shadow: none!important;
+    border-radius: 0!important;
+    background: transparent!important;
+}
+.custom-select option{
+    color: #333;
+}
+.flight{
+    width: 100%;
+    padding: 9px 0!important;
+    font-size: 12px!important;
+    border: 1px solid #ced4da!important;
+    background: transparent!important;
+    box-shadow: none!important;
+    border-radius: 0!important;
+}
+.flight:hover{
+    background: #fff!important;
+    color:#000!important;
+    
+    transition:0.5s;
+}
+
+input{
+    text-transform: uppercase;
+}

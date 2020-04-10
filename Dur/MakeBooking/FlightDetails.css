@@ -1,0 +1,65 @@
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 15px;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+.navbar li {
+    float: left;
+}
+  
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.navbar li a:hover {
+    background-color: #111;
+    text-decoration: none;
+    color: white;
+}
+
+.left .primary, {
+	font-size: 20px;
+
+}
+
+.left .secondary, .middle .secondary{
+	font-size: 13px;
+	color: #717171;
+}
+
+.middle .nonstop{
+	font-size: 13px;
+	color: blue;
+}
+
+.right #fare{
+	font-size: 30px;
+}
+
+#li2{
+	margin-left: 10%;
+}
+
+#li3,#li4{
+	padding-left: 10%;
+}
+
+#fare{
+	margin-left: 18%;
+}
+
+#book{
+	margin-top: 10px;
+}
+
+#li1{
+	width: 105px;
+}

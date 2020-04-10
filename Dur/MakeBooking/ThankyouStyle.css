@@ -1,0 +1,60 @@
+body{
+    
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 15px;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111;
+    text-decoration: none;
+    color: white;
+}
+
+.thankyou-page{
+    margin:30px;
+}
+
+img{
+    width: 55px;
+}
+
+.details-table{
+    padding: 60px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  
+  th {
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }

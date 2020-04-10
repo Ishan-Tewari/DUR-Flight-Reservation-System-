@@ -1,0 +1,88 @@
+* {
+  scroll-behavior: smooth;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+#button-c {
+  background-color: #212121;
+  border-radius: 36px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  padding-left: 8px;
+  padding-right: 8px;
+  width: 110px;
+  border: none;
+  text-transform: uppercase;
+}
+
+#button-c:focus {
+  box-shadow: none;
+}
+
+#button-c:hover {
+  background-color: rgb(255,255,255);
+  color: #323232;
+  text-decoration: none;
+}
+
+#tex-fo {
+  padding-top: 20px;
+}
+
+#tittle-c {
+  font-family: Barlow, sans-serif;
+  padding-top: 40px;
+  text-align: left;
+  /*align-items: center;*/
+  /*align-content: center;*/
+}
+
+#button-c {
+  font-weight: 700;
+}
+
+#button-c-c {
+  padding-top: 2em;
+  padding-bottom: 5em;
+  margin-right: 280px;
+}
+
+.form-control:hover {
+  border-color: white;
+}
+
+.form-control {
+  display: block;
+  width: 80%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+  background-color: rgba(255,255,255,0);
+  background-clip: padding-box;
+  border: none;
+  border-radius: 0;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+
+.form-control:focus {
+  color: #000000;
+  background-color: #fbae16;
+  border-color: initial;
+  outline: 0;
+  box-shadow: none;
+}
+
