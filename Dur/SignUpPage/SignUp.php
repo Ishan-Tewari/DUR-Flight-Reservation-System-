@@ -31,37 +31,37 @@
             <h1 id="tittle-c" style="padding-top: 20px;padding-bottom: 20px;padding-left: 250px;"><strong>Sign Up</strong></h1>
             <form id="tex-fo" method="post" action="ConfirmSignUp.php">
                 <div class="form-group">
-                    <input class="form-control" type="text" id="fname" style="font-family: Barlow, sans-serif;width: 100%;" placeholder="First Name" name="firstName">
+                    <input class="form-control" type="text" id="fname" style="font-family: Barlow, sans-serif;width: 100%;" placeholder="First Name" name="firstName" required = "required">
 
                 <div class="form-group" id="tex-fo">
-                    <input class="form-control" type="text" id="fname" style="font-family: Barlow, sans-serif;width: 100%;" placeholder="Last Name" name="lastName">
+                    <input class="form-control" type="text" id="fname" style="font-family: Barlow, sans-serif;width: 100%;" placeholder="Last Name" name="lastName" required = "required">
                 </div>
 
                 <div class="form-group" id="tex-fo">
-                    <input class="form-control" type="text" id="fname" style="font-family: Barlow, sans-serif;width: 100%;" placeholder="Email" name="uname">
+                    <input class="form-control" type="text" id="fname" style="font-family: Barlow, sans-serif;width: 100%;" placeholder="Email" name="uname" required = "required">
                 </div>
 
                 <div class="form-group" id="tex-fo">
-                    <input class="form-control" type="password" id="fname" style="font-family: Barlow, sans-serif;width: 100%;" placeholder="Password" name="pass">
+                    <input class="form-control" type="password" id="fname" style="font-family: Barlow, sans-serif;width: 100%;" placeholder="Password" name="pass" required = "required">
                 </div>
 
                 <div class="form-group" id="tex-fo">
-                    <input class="form-control" type="password" id="fname" style="font-family: Barlow, sans-serif;width: 100%;" placeholder="Confirm Password" name="confirmPass">
+                    <input class="form-control" type="password" id="fname" style="font-family: Barlow, sans-serif;width: 100%;" placeholder="Confirm Password" name="confirmPass" required = "required">
                 </div>
 
                     
                 </div>
                 
                 <div class="form-group" id="tex-fo">
-                    <input class="form-control" type="tel" id="cNum" style="font-family: Barlow, sans-serif;width: 100%;" placeholder="Contact No" name="contactNumber">
+                    <input class="form-control" type="tel" id="cNum" style="font-family: Barlow, sans-serif;width: 100%;" placeholder="Contact No" name="contactNumber" required = "required">
                 </div>
                 <div class="form-group" id="tex-fo">
-                    <input class="form-control" type="number" id="age" placeholder="Enter your age" style="font-family: Barlow, sans-serif;margin-top: 36px;width: 100%;" name="age">
+                    <input class="form-control" type="number" id="age" placeholder="Enter your age" style="font-family: Barlow, sans-serif;margin-top: 36px;width: 100%;" name="age" required = "required"> 
                     <input class="form-control" type="text" id="street" style="font-family: Barlow, sans-serif;margin-top: 36px;width: 100%;"
-                        placeholder="Address: Street" name="street">
-                    <input class="form-control" type="text" id="state" style="font-family: Barlow, sans-serif;margin-top: 36px;width: 100%;" placeholder="Address: State" name="state">
+                        placeholder="Address: Street" name="street" required = "required">
+                    <input class="form-control" type="text" id="state" style="font-family: Barlow, sans-serif;margin-top: 36px;width: 100%;" placeholder="Address: State" name="state" required = "required">
                     <input class="form-control" type="text" id="country"
-                        style="font-family: Barlow, sans-serif;margin-top: 36px;width: 100%;" placeholder="Address: Country" name="country">
+                        style="font-family: Barlow, sans-serif;margin-top: 36px;width: 100%;" placeholder="Address: Country" name="country" required = "required">
                 </div>
                 <div id="button-c-c">
                     <input class="btn btn-primary float-right" id="button-c" type="submit" name="submit" value="SIGN UP">
