@@ -18,6 +18,9 @@
         $numOfPassengers = $_POST["numOfPassengers"];
         $_SESSION['numOfPassengers'] = $numOfPassengers;
     }
+    else{
+        echo "<script>location.href = '/Dur/home/index.php'</script>";
+    }
     
 
     // echo "$airline<br>";
@@ -59,8 +62,9 @@
                 <table class="table">
                     <thead style="width: 90%;margin-left: 100px;">
                         <tr>
-                            <th style="margin-left: 100px;">BRAND</th>
+                            <th style="margin-left: 100px;">DUR</th>
                             <th>COME FLY WITH US</th>
+                            <th style="padding-left: 0px;padding-right: 15px;"><a href="/Dur/home/index.php">LOG OUT</a></th>
                         </tr>
                     </thead>
                     <tbody></tbody>

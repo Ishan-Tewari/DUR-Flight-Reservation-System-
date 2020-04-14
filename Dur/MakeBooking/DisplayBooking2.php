@@ -38,6 +38,9 @@
         // echo "$destination<br>";
         // echo "$fare<br>";
     }
+    else{
+        echo "<script>location.href = '/Dur/home/index.php'</script>";
+    }
 ?>
 
 
@@ -73,8 +76,9 @@
                 <table class="table">
                     <thead style="width: 90%;margin-left: 100px;">
                         <tr>
-                            <th style="margin-left: 100px;">BRAND</th>
+                            <th style="margin-left: 100px;">DUR</th>
                             <th>COME FLY WITH US</th>
+                            <th style="padding-left: 0px;padding-right: 15px;"><a href="/Dur/home/index.php">LOG OUT</a></th>
                         </tr>
                     </thead>
                     <tbody></tbody>
@@ -142,7 +146,6 @@
             </section>
 
         
-            <button class="btn btn-primary" data-toggle="modal" data-target="#modal1" type="button" style="margin-left: 500px;margin-top: 50px;width: 300px;margin-bottom: 70px;"><strong>CONFIRM BOOKING</strong></button></section>
     </section>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>

@@ -8,6 +8,9 @@
         # code...
         $fullName = $_SESSION['fullName'];
     }
+    else{
+        echo "<script>location.href = '/Dur/home/index.php'</script>";
+    }
  ?>
 
 

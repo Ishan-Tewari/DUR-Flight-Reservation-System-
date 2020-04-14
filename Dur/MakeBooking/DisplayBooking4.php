@@ -2,6 +2,9 @@
     
 
     session_start();
+    if (isset($_SESSION['uname']) == false) {
+        echo "<script>location.href = '/Dur/home/index.php'</script>";
+    }
     $airline = $_SESSION['airline'];
     $departure = $_SESSION['departure'];
     $arrival = $_SESSION['arrival'];
@@ -79,8 +82,9 @@
                 <table class="table">
                     <thead style="width: 90%;margin-left: 100px;">
                         <tr>
-                            <th style="margin-left: 100px;">BRAND</th>
+                            <th style="margin-left: 100px;">DUR</th>
                             <th>COME FLY WITH US</th>
+                            <th style="padding-left: 0px;padding-right: 15px;"><a href="/Dur/home/index.php">LOG OUT</a></th>
                         </tr>
                     </thead>
                     <tbody></tbody>

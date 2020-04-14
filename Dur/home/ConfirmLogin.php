@@ -63,6 +63,9 @@
             }
         }
     }
+    else{
+        echo "<script>location.href = '/Dur/home/index.php'</script>";
+    }
 
     if (isset($_SESSION['uname']) && isset($_SESSION['pass'])) {
 

@@ -3,6 +3,9 @@
     include 'connection.php';
 
     session_start();
+    if (isset($_SESSION['uname']) == false) {
+        echo "<script>location.href = '/Dur/home/index.php'</script>";
+    }
     $uname = $_SESSION['uname'];
     $numOfPassengers = $_SESSION["numOfPassengers"];
     $flightDate = $_SESSION['flightDate'];
@@ -18,6 +21,11 @@
 
 
     $totalFare = $fare * $numOfPassengers;
+    
+    $query3 = "INSERT INTO reservations
+                    VALUES(NULL,'$uname',current_timestamp(),'$flightDate','$totalFare','$airline')
+                ";
+    $insert2 = mysqli_query($connect,$query3) or die(mysqli_error($connect));
 
 ?>
 
@@ -46,7 +54,8 @@
 <body style="background-image: none;">
 
     <ul>
-        <li><a class="active" href="#home">BRAND</a></li>
+        <li><a class="active" href="/Dur/home/index.php">DUR</a></li>
+        <li style="float: right;padding-left: 0px;padding-right: 15px;"><a href="/Dur/home/index.php">LOG OUT</a></li>
         <li style="float: right;padding-left: 0px;padding-right: 15px;"><a href="#">Contact</a></li>
         
     </ul>
@@ -117,7 +126,9 @@
 
                     
                     $insert = mysqli_query($connect,$query) or die(mysqli_error($connect));
+                    
                 }
+                
 
 
                 echo "

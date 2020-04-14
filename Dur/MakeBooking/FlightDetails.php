@@ -23,7 +23,7 @@
 		else{
 ?>	
 			<script type="text/javascript">
-				location.href = "/Dur/home/index.html";
+				location.href = "/Dur/home/index.php";
 			</script>
 <?php
 		}
@@ -48,7 +48,8 @@
 
 <div class="navbar">
 	<ul>
-        <li><a class="active" href="#home">BRAND</a></li>
+		<li><a class="active" href="/Dur/home/index.php">DUR</a></li>
+		<li style="float: right;padding-left: 0px;padding-right: 15px;"><a href="/Dur/home/index.php">LOG OUT</a></li>
         <li style="float: right;padding-left: 0px;padding-right: 15px;"><a href="#">Contact</a></li>
         
     </ul>
@@ -68,6 +69,7 @@
   		
   		while ($row = mysqli_fetch_assoc($extract)) {
 			# code...
+
 			$airline = $row['Airline'];
 			$departure = $row['Departure'];
 			$arrival = $row['Arrival'];
@@ -134,7 +136,7 @@
 			      <div class='right'>
 
 				      <div class='w3-bar-item' id='fare'>
-				      	<font>₹ $fare</font><br>
+				      	<font style='font-size: 28px;'>₹ $fare</font><br>
 				      </div>
 
 				      <div class='w3-bar-item' id='book'>
@@ -168,6 +170,12 @@
 			";
 			
 
+		}
+		if (isset($airline) == false) {
+			echo"	<br><br><h1><center><i>Sorry, No Flights Available!</i></center></h1><br><br>
+						
+			";
+			
 		}
   ?>
 </div>
