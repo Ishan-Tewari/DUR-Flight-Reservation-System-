@@ -1,6 +1,6 @@
 # Dur-DBMS
 
-Nurtred from the seed of the great idea to empower the traveller, Dur is one of it's kind flight booking service available in the country. We ensure that the travellers are always taken care of by our constant ground-zero feedbacks. Dur belives in easing out the frustrating process of going through every booking agency to find out the cheapest flight available. With Dur, passengers have access to exquizite facilities at the Airports along with proper and timely Customer Support. Want to plan an exciting adventure? Come fly with Us!
+Nurtred from the seed of the great idea to empower the traveller, Dur is one of it's kind flight booking service available in the country. We ensure that the travellers are always taken care of by our constant ground-zero feedbacks. Dur belives in easing out the frustrating process of going through every booking agency to find out the cheapest flight available. With Dur, passengers have access to exquisite facilities at the Airports along with proper and timely Customer Support. Want to plan an exciting adventure? Come fly with Us!
 
 1. Import the sql file in phpmyadmin database.
 2. Place the folder "Dur" in htdocs.
