@@ -16,6 +16,7 @@ The walkthrough of the project is presented below :
 
 Basic Flow of the project :
 1. User Logs in on the Main Page of the Website. (SignUp available for new Users.)
+
 ![Main Page](/ReadmeImages/home.png)
 
 ![Login](/ReadmeImages/login.png)
