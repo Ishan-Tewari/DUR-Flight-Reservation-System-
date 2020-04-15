@@ -16,17 +16,33 @@ The walkthrough of the project is presented below :
 
 Basic Flow of the project :
 1. User Logs in on the Main Page of the Website. (SignUp available for new Users.)
-![Main Page]()
-![Login]()
+
+![Main Page](/ReadmeImages/home.png)
+
+![Login](/ReadmeImages/login.png)
+
+![Sign Up](/ReadmeImages/sign%20up.png)
   
 2. User selects the To and From places for the flight booking and enters the rest of the details.
-![Flight Booking]
+
+![Flight Booking](/ReadmeImages/bookingPage.png)
+
 3. Browsing through all the flights available we show the cheapest yet best flight experinces to select for the User.
-![Choose flight]
+
+![Choose flight](/ReadmeImages/listOfFlights.png)
+
 4. After selecting a flight to book, User can now enter the details of the fellow travellers.
-![Enter deatils]
+
+![Enter number of passengers](/ReadmeImages/numOfPassengers.png)
+
+![Enter Details](/ReadmeImages/passengerDetails.png)
+
+![Enter Details2](/ReadmeImages/passengerDetails2.png)
+
 5. Once details are fed in, you're just one step away from your exclusive flight experience. Pay the intended amount and it's done. (For this project we have included the payment processing part. After feeding the information about passengers the portal displays the total fare and ticket.)
-![Final Page]
+
+![Final Page](/ReadmeImages/bookingConfirmed.png)
+
 6. It's done. Enjoy your experince with us!
 
 
