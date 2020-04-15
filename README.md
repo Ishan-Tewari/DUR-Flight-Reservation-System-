@@ -50,7 +50,7 @@ Basic Flow of the project :
 
 For the project we've created a remote database in our Pc, the SQL file of which is included in the files.
 
-![Image of all the tables in DB]
+![Image of all the tables in DB](/ReadmeImages/dbTables.png)
 
 Tables :
 
