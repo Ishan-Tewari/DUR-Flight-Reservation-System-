@@ -52,5 +52,6 @@ For the project we've created a remote database in our Pc, the SQL file of which
 
 ![Image of all the tables in DB](/ReadmeImages/dbTables.png)
 
-Tables :
+The above pics shows all the tables present in the database.
+The details of each table and it's use is stated in the document for ER Model.
 
