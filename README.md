@@ -1,9 +1,9 @@
 # Dur-DBMS
 
 Authors:
-![Manish Gupta](https://github.com/M0315G)
-![Ishan Tewari](https://github.com/Ishan-Tewari)
-![Gaurav Bhambani]()
+* **[Manish Gupta](https://github.com/M0315G)
+* **[Ishan Tewari](https://github.com/Ishan-Tewari)
+* **[Gaurav Bhambani]()
 
 Nurtured from the seed of the great idea to empower the traveller, Dur is one of it's kind flight booking services available in the country. We ensure that the travellers are always taken care of by our constant ground-zero feedback. Dur believes in easing out the frustrating process of going through every booking agency to find out the cheapest flight available. With Dur, passengers have access to exquisite facilities at the Airports along with proper and timely Customer Support. Want to plan an exciting adventure? Come fly with Us!
 
